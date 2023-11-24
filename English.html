@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>English</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#exhibits" onclick="w3_close()" class="w3-bar-item w3-button">Exhibits</a>
+  <a href="#classes" onclick="w3_close()" class="w3-bar-item w3-button">Venue</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">PSRTN</div>
+    <div class="w3-center w3-padding-16">Exhibits</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="exhibits">
+    <div class="w3-quarter">
+      <img src="https://th.bing.com/th/id/OIP.5jS3QmSC0ecaW5-dn7S4fgHaK4?rs=1&pid=ImgDetMain" alt="pic1" style="width:95%">
+      <h3>Malgudi Days</h3>
+      <p>Feel the Nostalgia of A collection of short stories by R.K.Narayan.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://i.pinimg.com/564x/79/10/b1/7910b1996df507a5a6a83e8629dee3b3.jpg" alt="pic2" style="width:90%">
+      <h3>Tom Sawyer</h3>
+      <p>Discover the several adventures Tom Sawyer has, often with his friend Huckleberry Finn.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://images.thenile.io/r1000/9781586176167.jpg" alt="pic3" style="width:95%">
+      <h3>Julius Caesar</h3>
+      <p>Julius Caesar Step into the Spotlight.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-hand-drawn-fashion-dress-private-custom-poster-background-psd-image_178663.jpg" alt="pic4" style="width:95%">
+      <h3>Personality Dress-Up</h3>
+      <p>Explore the Roleplays of Famous Personalities.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="https://i.pinimg.com/564x/38/77/90/387790d6c4e98d206faec377bf4e7655.jpg" alt="pic5" style="width:100%">
+      <h3>Dance</h3>
+      <p>They say that Entertainment is a Important Part of any Event.</p>
+    </div>
+  </div>
+  
+  <hr id="classes">
+
+  <!-- Classes Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>Venue</h3><br>
+    <div class="w3-padding-32">
+      <h4><b>This exhibition will take place in the Stage Area.</b></h4>
+      <p>Note that there are other more fascinating events taking place. Please check them out too!</p>
+    </div>
+  </div>
+  <hr>
+  
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by Computer Team</p>
+</footer>
+
+</body>
+</html>

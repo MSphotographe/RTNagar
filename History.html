@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>History/Civics</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#exhibits" onclick="w3_close()" class="w3-bar-item w3-button">Exhibits</a>
+  <a href="#classes" onclick="w3_close()" class="w3-bar-item w3-button">Venue</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">PSRTN</div>
+    <div class="w3-center w3-padding-16">Exhibits</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="exhibits">
+    <div class="w3-quarter">
+      <img src="https://th.bing.com/th/id/OIP.uzcObEhk7g61BdNM0SFvbAHaJ4?rs=1&pid=ImgDetMain" alt="pic1" style="width:100%">
+      <h3>The Petronas Tower</h3>
+      <p>The Miniature of Petronus Tower.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://live.staticflickr.com/3558/3349125785_4412e1cd6d_b.jpg" alt="pic2" style="width:100%">
+      <h3>Dandi March</h3>
+      <p>Discover the event that played a major role for our Freedom.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://th.bing.com/th/id/OIP.8Nr1x-T5CxrkJdpj19P3fAHaLH?rs=1&pid=ImgDetMain" alt="pic3" style="width:89%">
+      <h3>Chinese Civilization</h3>
+      <p>Explore the 3000-year-old History of China.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://i.pinimg.com/736x/df/02/85/df028516474604b2f2f6b1f6bdcfd389.jpg" alt="pic4" style="width:100%">
+      <h3>Model Of Taj Mahal</h3>
+      <p>Take a glimpse of One of the 7 Wonder of The World.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="https://i.pinimg.com/564x/de/35/2a/de352ac4680e491cf9c3eec74256ad1a.jpg" alt="pic5" style="width:100%">
+      <h3>Sketching Machine</h3>
+      <p>Check out the sketching machine used in old times.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://i.pinimg.com/564x/e4/9b/7a/e49b7ab998af7f5550442a8cb32039ae.jpg" alt="pic6" style="width:100%">
+      <h3>Models</h3>
+      <p>Check out the Minature Models of different Monuments.</p>
+    </div>
+  </div>
+  
+  <hr id="classes">
+
+  <!-- Classes Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>Venue</h3><br>
+    <div class="w3-padding-32">
+      <h4><b>The above exhibits will be taking place in the Main Building(II Floor)</b></h4>
+      <p>Note that there are other more fascinating exhibitions taking place in these Classes.Please check them out too!</p>
+    </div>
+  </div>
+  <hr>
+  
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by Computer Team</p>
+</footer>
+
+</body>
+</html>
